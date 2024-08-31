@@ -15,7 +15,7 @@ import java.io.IOException;
 
 //logger 사용할 수 있게 해줌
 @Slf4j(topic = "AuthFilter")
-@Component
+//@Component
 @Order(2)
 public class AuthFilter implements Filter {
 
